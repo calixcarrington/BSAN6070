@@ -1,26 +1,25 @@
 # BSAN6070
 # Project Title
-CA01: Exploratory Data Analysis – India Pollution Data
+CA02: Spam eMail Detection using Naive Bayes Classification Algorithm
 
 ## Description
-Exploratory Data Analysis is an approach analyzing data sets to summarize their main
-characteristics such as mean, standard deviation, and count, so on, often with visual
-methods. It’s where the researcher takes a bird’s eye view of the data and tries to make
-some sense of it. It’s often the first step in data analysis, implemented before any formal
-statistical techniques are applied.
+In this exercise we shall train the model with set of emails labelled as either from Spam
+or Not Spam. There are 702 emails equally divided into spam and non spam category.
+Next, we shall test the model on 260 emails. We shall ask model to predict the category
+of this emails and compare the accuracy with correct classification that we already know.
 
 ## Getting Started
 ### Dependencies
 * Google CoLab environment
-* India Pollution Data from Kaggle
+* Data from https://github.com/ArinB/MSBA-CA01-Spam-Mail-Naibe-Bayes
  
 ### Executing program
 Install the following packages:
-* pandas
-* numpy
-* matplotlib.pyplot
-* datetime
-* from sklearn.impute import SimpleImputer
+* import os
+* import numpy as np
+* from collections import Counter
+* from sklearn.naive_bayes import GaussianNB
+* from sklearn.metrics import accuracy_scorepandas
 
 ### Authors
 Calix Carrington
