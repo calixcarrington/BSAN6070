@@ -11,7 +11,8 @@ of this emails and compare the accuracy with correct classification that we alre
 ## Getting Started
 ### Dependencies
 * Google CoLab environment
-* Data from https://github.com/ArinB/MSBA-CA01-Spam-Mail-Naibe-Bayes
+* Data downloaded from https://github.com/ArinB/MSBA-CA01-Spam-Mail-Naibe-Bayes
+* Path in Google Drive set to exactly /content/drive/My Drive/MSBA_Colab_2020/ML_Algorithms/CA02/Data
  
 ### Executing program
 Install the following packages:
