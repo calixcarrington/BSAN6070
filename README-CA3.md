@@ -1,6 +1,5 @@
 # BSAN6070
-# Project Title
-CA03: Decision Tree Algorithm
+# CA03: Decision Tree Algorithm
 
 ## Description
 Given a data of attributes together with its classes, a decision tree
